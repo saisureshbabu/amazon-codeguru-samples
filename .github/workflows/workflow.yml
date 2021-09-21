@@ -38,7 +38,7 @@ jobs:
       if: ${{ always() }}
       with:
         build_path: target # build artifact(s) directory
-        s3_bucket: codeguru-reviewer-251640492703
+        s3_bucket: codeguru-reviewer-251640492703 #S3 bucket name
 
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v2
